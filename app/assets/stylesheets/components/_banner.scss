@@ -1,0 +1,25 @@
+.banner {
+  background-image: url("https://graziamagazine.com/mx/wp-content/uploads/sites/13/2021/05/c3e2e1a864b09fda968e770c0c6bbabd.jpeg?fit=2000%2C1333");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}

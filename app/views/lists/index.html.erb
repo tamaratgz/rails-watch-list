@@ -1,0 +1,20 @@
+<div class="banner">
+  <div class="container">
+    <h1>If <strong>movies</strong> became real...</h1>
+    <p>Cruella would have a Cacique instead of a Pongo.</p>
+  </div>
+</div>
+
+<div class="main_button">
+  <%= link_to "Create a new list", new_list_path, class: "btn btn-ghost" %>
+</div>
+
+<div class=row>
+  <ul class="cards col-12">
+    <% @lists.each do |list| %>
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://elcinefil.cat/wp-content/uploads/2018/10/private-cinema.jpg)">
+      <li><%= link_to list.name, list_path(list.id) %></li>
+      </div>
+    <% end %>
+  </ul>
+</div>
